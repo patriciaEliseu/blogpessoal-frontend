@@ -1,95 +1,49 @@
 
-
 function Home() {
-  return (
-    <>
-    <div
-      style={{
-        backgroundColor: "#312e81",
-        display: "flex",
-        justifyContent: "center"
-    }}
+
     
+  return (
+    /* Container */
+    <div
+        className="bg-indigo-900 flex justify-center"
     >
-      <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: "1fr 1fr",
-          color: "white",
-          width: "100%",
-          maxWidth: "1280px"
-        }}
-      
-      >
+        {/* Grid que divide a tela em 2 colunas */}
         <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            gap: "1rem",
-            alignItems: "center",
-            justifyContent: "center",
-            paddingTop: "1rem",
-            paddingBottom: "1rem"
-          }}
+            className="container grid grid-cols-1 sm:grid-cols-2 text-white"
         >
-          <h2
-            style={{
-              fontSize: "3rem",
-              fontWeight: "bold"
-            }}
-          >
-            Seja Bem Vinde!
-          </h2>
-          <p
-            style={{
-              fontSize: "1.25rem"
-            }}
-          >
-            Expresse aqui seus pensamentos e opiniões
-          </p>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "space-around",
-              gap: "1rem"
-            }}
-          >
+            {/* Coluna esquerda */}
             <div
-              style={{
-                borderRadius: "0.5rem",
-                color: "white",
-                border: "2px solid white",
-                padding: "0.5rem 1rem"
-              }}
-            
+                className="flex flex-col gap-4 items-center justify-center py-4"
             >
-              Nova Postagem
-
+                <h2
+                    className="text-5xl font-bold"
+                >Seja Bem Vinde!</h2>
+                <p
+                    className="text-xl"
+                >Expresse aqui seus pensamentos e opiniões</p>
+                
+                {/* Link/Botão */}
+                <div
+                    className="flex justify-around gap-4"
+                >
+                    <div
+                        className="rounded text-white border-white border-solid border-2 py-2 px-4"
+                    >Nova Postagem</div>
+                </div>
             </div>
-          </div>
-        </div>
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "center"
-                }}
-              
-              >
-                <img 
-                src="https://i.imgur.com/fyfri1v.png"
-                alt="Imagem Página Home"
-                style={{
-                  width: "66%"
-                }}
+
+            {/* Coluna Direita */}
+            <div
+                className="flex justify-center"
+            >
+                <img
+                    src="https://i.imgur.com/fyfri1v.png"
+                    alt="Imagem da Página Home"
+                    className="w-2/3"
                 />
-              </div>
-      </div>
-     
+            </div>
+        </div>
     </div>
-
-   
-
-    </>
   )
 }
 
