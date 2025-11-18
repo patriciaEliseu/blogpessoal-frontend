@@ -2,7 +2,7 @@ import { useContext, useEffect, useState, type ChangeEvent, type FormEvent } fro
 import { useNavigate, useParams } from "react-router-dom"
 import { AuthContext } from "../../../contexts/AuthContext"
 import type Tema from "../../../models/Tema"
-import { atualizar, buscar, cadastrar } from "../../../services/Service"
+import { atualizar, buscar, cadastrar } from "../../../sevices/Service"
 import { ClipLoader } from "react-spinners"
 
 function FormTema() {

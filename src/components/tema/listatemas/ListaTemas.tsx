@@ -3,7 +3,7 @@ import CardTema from "../cardtema/CardTema"
 import { useContext, useEffect, useState } from "react";
 import type Tema from "../../../models/Tema";
 import { AuthContext } from "../../../contexts/AuthContext";
-import { buscar } from "../../../services/Service";
+import { buscar } from "../../../sevices/Service";
 import { SyncLoader } from "react-spinners";
 
 function ListaTemas() {
