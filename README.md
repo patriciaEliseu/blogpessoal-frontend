@@ -8,12 +8,12 @@
 <br /> 
 
 <div align="center">   
-    <img src="https://img.shields.io/github/languages/top/rafaelq80/blogpessoal_react_t83?style=flat-square" />
-    <img src="https://img.shields.io/github/repo-size/rafaelq80/blogpessoal_react_t83?style=flat-square" />   
-     <img src="https://img.shields.io/github/languages/count/rafaelq80/blogpessoal_react_t83?style=flat-square" />
-    <img src="https://img.shields.io/github/last-commit/rafaelq80/blogpessoal_react_t83?style=flat-square" />
-    <img src="https://img.shields.io/github/issues/rafaelq80/blogpessoal_react_t83?style=flat-square" />
-  <img src="https://img.shields.io/github/issues-pr/rafaelq80/blogpessoal_react_t83?style=flat-square" />
+    <img src="https://img.shields.io/github/languages/top/patriciaEliseu/blogpessoal-frontend?style=flat-square" />
+    <img src="https://img.shields.io/github/repo-size/patriciaEliseu/blogpessoal-frontend?style=flat-square" />   
+     <img src="https://img.shields.io/github/languages/count/patriciaEliseu/blogpessoal-frontend?style=flat-square" />
+    <img src="https://img.shields.io/github/last-commit/patriciaEliseu/blogpessoal-frontend?style=flat-square" />
+    <img src="https://img.shields.io/github/issues/patriciaEliseu/blogpessoal-frontend?style=flat-square" />
+  <img src="https://img.shields.io/github/issues-pr/patriciaEliseu/blogpessoal-frontend?style=flat-square" />
     <img src="https://img.shields.io/badge/status-em%20desenvolvimento-yellow?style=flat-square" /> 
 </div>
 
@@ -86,7 +86,7 @@ git clone https://github.com/patriciaEliseu/blogpessoal-frontend.git
 2. **Acesse a pasta do projeto:**
 
 ```bash
-cd blogpessoal_react_t83
+cd blogpessoal-frontend
 ```
 
 3. **Instale as dependências:**
@@ -114,7 +114,7 @@ http://localhost:5173
 
 A aplicação se comunica com a API do projeto:
 
-🔗 [Blog Pessoal - Backend Spring Boot](https://github.com/rafaelq80/blogpessoal_spring_t83)
+🔗 [Blog Pessoal - Backend Spring Boot](https://github.com/patriciaEliseu/blogpessoal_spring_t83)
 
 > A URL base da API deve ser configurada (ex: `http://localhost:8080`) em um arquivo de configuração, como `.env`, ou diretamente nos serviços do Axios.
 
